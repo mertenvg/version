@@ -7,9 +7,7 @@ import (
 	"github.com/whitecypher/version"
 )
 
-var (
-	AppVersion = "v0.0.0"
-)
+var AppVersion string
 
 func main() {
 	version.Set(AppVersion)
