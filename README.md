@@ -22,5 +22,6 @@ func main() {
 ```
 you can optionally automatically set AppVersion while building using the `ldflags` option;
 ```bash
-go run -ldflags "-w -X main.AppVersion=$(git describe --tags)" cmd/version/main.go
+go install -ldflags "-w -X main.AppVersion=$(git describe --tags)" ./cmd/version
+version -v
 ```
