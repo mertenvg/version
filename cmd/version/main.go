@@ -4,7 +4,7 @@ import (
 	"os"
 	"fmt"
 
-	"github.com/whitecypher/version"
+	"github.com/mertenvg/version"
 )
 
 var AppVersion string

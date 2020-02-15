@@ -8,12 +8,11 @@ package main
 import (
 	"os"
 	
-	"github.com/whitecypher/version"
+	"github.com/mertenvg/version"
 )
 
-var (
-	AppVersion = "v1.0.0"
-)
+// AppVersion would typically be set at build time using build flags. See example below.
+var AppVersion = "v1.0.0"
 
 func main() {
     version.Set(AppVersion)
